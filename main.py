@@ -187,7 +187,7 @@ async def start(client, message):
                     InlineKeyboardButton("Channel", url="https://t.me/krmott")
                     ]]
         Photo = "https://telegra.ph/file/b1342fb0005ed127120c2.jpg"
-        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @Unni0240", reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), I am sophie, i can chat with you any time and any topic in any language.", reply_markup=InlineKeyboardMarkup(buttons))
 
 
 
